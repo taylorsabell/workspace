@@ -1,6 +1,6 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
-PERSONAL_DEVICE = false
+personal-device = false
 
 brew cask install google-chrome
 brew cask install visual-studio-code
