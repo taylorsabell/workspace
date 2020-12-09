@@ -16,6 +16,7 @@ brew install jq
 
 brew install git
 # git config --global user.name "Me"
+# git config --global user.email "email"
 
 echo 'alias g="git"' >> ~/.zshrc
 echo 'alias cc="code ."' >> ~/.zshrc
