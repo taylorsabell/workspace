@@ -18,10 +18,11 @@ brew install git
 # git config --global user.name "Me"
 # git config --global user.email "email"
 
-echo 'alias g="git"' >> ~/.zshrc
-echo 'alias cc="code ."' >> ~/.zshrc
-echo 'alias reload="source ~/.zshrc && echo Reloaded!"' >> ~/.zshrc
+echo $'\n' >> ~/.zshrc && cat aliases.sh >> ~/.zshrc
+echo $'\n' >> ~/.zshrc && cat functions.sh >> ~/.zshrc
 
 if [ "$personal" = true ] ; then
-    echo 'function key() { op get item $1 --fields password | pbcopy && sleep 10 && pbcopy < /dev/null}' >> ~/.zshrc
+    echo $'\n' >> ~/.zshrc && cat functions.personal.sh >> ~/.zshrc
 fi
+
+reload
