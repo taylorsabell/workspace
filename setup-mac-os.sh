@@ -2,8 +2,8 @@
 
 personal-device = false
 
-brew cask install google-chrome
-brew cask install visual-studio-code
+brew install --cask google-chrome
+brew install --cask visual-studio-code
 
 if [ "$personal-device" = true ]
 then
