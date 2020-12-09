@@ -5,9 +5,9 @@ personal-device = false
 brew install --cask google-chrome
 brew install --cask visual-studio-code
 
-if [ "$personal-device" = true ]
+if [ $personal-device == true ]
 then
-  brew cask install 1password-cli
+  brew install --cask 1password-cli
 fi
 
 cd ~/
