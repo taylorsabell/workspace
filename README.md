@@ -1,2 +1,2 @@
 # Running
-`zsh setup`
+`zsh setup.sh`
