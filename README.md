@@ -1,2 +1,2 @@
 # Running
-`zsh setup-mac-os.sh`
+`zsh setup`
