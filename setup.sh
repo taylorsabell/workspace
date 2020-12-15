@@ -8,8 +8,6 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 personal=true 
 if [ "$personal" = true ] ; then
     brew install --cask 1password-cli
-    # todo - securely automate
-    # op signin example.1password.com email
 fi
 
 brew install --cask google-chrome
@@ -18,9 +16,7 @@ brew install --cask zoom
 
 brew install jq
 brew install git
-# todo - securely automate
-# git config --global user.name "Me"
-# git config --global user.email "email"
+
 git config --global pull.rebase false
 
 # Preferences
@@ -70,3 +66,12 @@ fi
 
 source ~/.zshrc
 echo 'Setup complete'
+
+# Manual (all)
+# todo - securely automate
+# todo - securely automate
+# git config --global user.name "Me"
+# git config --global user.email "email"
+
+# Manual (personal)
+# op signin example.1password.com email
